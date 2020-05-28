@@ -1,0 +1,4 @@
+img {width: 300px;}
+table,td,th {border: 1px solid gray;
+    border-collapse: collapse;}
+    /*border-spacing: 5px;}*/
