@@ -1,0 +1,7 @@
+table {width: 100%}
+td {text-align: center;
+padding: 15px}
+img {width: 300px}
+tbody {background-color: red}
+thead {background-color: blue}
+tfoot {background-color: green}
