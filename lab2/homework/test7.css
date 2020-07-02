@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+.dsa {
+    float: left;
+}
+.qwe {
+    float: right;
+}
+header {
+    padding: 20px;
+    border-bottom: 1px solid blue;
+    background-color: coral;
+    height: 70px;
+}
+button {
+    margin: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+.btn1 {
+    margin-left: 20px;
+    display: inline-flex;
+    padding-right: 20px;
+}
+.imgft {
+    display: inline-flex;
+    margin: 10px;
+    padding-right: 70%;
+}
+.btn2 {
+    text-align: right;
+    margin-right: 20px;
+}
+input {
+    text-align: right;
+    display: inline-flex;
+    width: 300px;
+    height: 20px;
+}

@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+.dsa {
+    float: right;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+.imgft {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+header{
+    height: 120px;
+
+    border-bottom: 1px solid blue;
+    background-color: khaki;
+}
+.btn1 {
+    float: left;
+    padding: 20px;
+}
+button {
+    background-color: coral;
+    width: 100px;
+    padding: 10px;
+    margin-right: 20px;
+}
+section {
+    border: 1px solid black;
+}

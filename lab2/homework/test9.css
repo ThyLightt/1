@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+.dsa {
+    float: right;
+    padding: 10px;
+    margin-right: 50px;
+    margin-top: 35px;
+    background-color: gold;
+}
+.imgft {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+header{
+    height: 120px;
+    padding: 10px;
+    border-bottom: 1px solid blue;
+    background-color: blanchedalmond;
+}

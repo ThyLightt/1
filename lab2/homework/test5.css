@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+.dsa {
+    float: left;
+}
+.qwe {
+    float: right;
+}
+header {
+    background-color: coral;
+    border-bottom: 1px solid black;
+    height: 50px;
+    padding: 50px;
+}
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    background-color: yellow;
+    padding: 10px;
+}
+.imgft {
+    text-align: left;
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.btn1 {
+    text-align: center;
+    display: inline-flex;
+    padding-left: 30%;
+}
+.btn2 {
+    text-align: right;
+    display: inline-flex;
+    padding-left: 30%;
+}

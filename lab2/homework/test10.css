@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+.imgft {
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.dsa {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80px;
+    background-color: yellow;
+    padding: 10px;
+}
+header {
+    height: 150px;
+    background: linear-gradient(270deg, black,  transparent 50%);
+}
+.btn1 {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}

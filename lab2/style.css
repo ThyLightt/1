@@ -1,0 +1,27 @@
+body {
+  background-color: lightgrey;
+}
+.btn-secondary {
+  background-color: #343a40;
+  border: 0;
+  margin-left: -13px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards .card {
+  display: inline-block;
+  margin: 45px;
+}
+.jumbotron {
+  margin: 35px;
+  background-color: lightgray;
+}
+.media {
+  margin: 50px;
+}
+.media > img {
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */

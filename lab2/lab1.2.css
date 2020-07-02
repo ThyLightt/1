@@ -1,22 +1,29 @@
-table {
-    width: 100%
+body {
+    margin: 0;
+    background-image: url("homework/world-map.png");
+    background-position: top;
 }
-td {
+h1 {
+    letter-spacing: 4px;
     text-align: center;
-padding: 15px
+    font-weight: bold;
+    font-family: sans-serif;
 }
-img {
-    width: 300px
+h2 {
+    letter-spacing: 2px;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    font-weight: normal;
 }
-tbody {
-    background-color: red
+a:visited {
+    color: aqua;
 }
-thead {
-    background-color: blue
+a:active {
+    color: gold;
 }
-tfoot {
-    background-color: green
-}
-iframe {
-    width: 600px
+article {
+    color: darkblue;
+    text-indent: 20px;
+    margin: 0 20px;
 }
