@@ -1,49 +1,37 @@
-let day;
-let sunny;
-let rainy;
-let cold;
-let weekend;
+let imgNode = document.createElement("img")
 
-let output = "";
+imgNode.src = "https://cdn.the-scientist.com/assets/articleNo/66864/aImg/35078/foresttb-l.jpg";
+imgNode.style.width="400px";
 
-function analyzeWeather() {
+let mainCont = document.getElementById("mainContainer");
+mainCont.appendChild(imgNode);
 
-    day = document.getElementById("check1").checked;
-    sunny = document.getElementById("check2").checked;
-    rainy = document.getElementById("check3").checked;
-    cold = document.getElementById("check4").checked;
-    weekend = document.getElementById("check5").checked;
+let article = document.createElement("p");
+let articleText = document.createTextNode("loren    qweqweqweqwe")
+article.appendChild(articleText);
+mainCont.appendChild(article);
 
-    switch (true) {
-        case day === true && sunny === true:
-            output += "Take sunglasses."
-                break;
-        case day === true && rainy === true  :
-            output += "Take umbrella."
-            break;
-        case day === true && cold === true:
-            output += "Take coat."
-            break;
-        case day === true && weekend === true:
-            output += "Go to piknick."
-            break;
-        case rainy === true:
-            output += "Take umbrella."
-            break;
-        case cold === true:
-            output += "Take coat."
-            break;
-        case weekend === true:
-            output += "Go to caffee."
-            break;
-        case day === true:
-            output += "Go to work."
-            break;
-        default:
-            output += "Go to home."
-            break;
-    }
-    alert(output);
+let myButton = document.createElement("button");
+myButton.innerHTML = "Hide! ";
+myButton.style.padding = "20px";
+myButton.style.border = "0";
+
+mainCont.appendChild(myButton);
+
+myButton.onclick = function(){
+    article.style.display = "none";
+};
+
+let myButton2 = document.createElement("button");
+myButton2.innerHTML = "Show! ";
+myButton2.style.padding = "20px";
+myButton2.style.border = "0";
+
+mainCont.appendChild(myButton2);
+
+myButton2.onclick = function(){
+    article.style.display = "flex";
+};
 
 
 
@@ -52,33 +40,43 @@ function analyzeWeather() {
 
 
 
-    // if (day === true) {
-    //     if (sunny === true) {
-    //         output = "Take sunglasses."
-    //     }
-    //     if (rainy === true) {
-    //         output += "Take umbrella."
-    //     }
-    //     if (cold === true) {
-    //         output += "Take coat."
-    //     }
-    //     if (weekend === true) {
-    //         output += "go to piknick."
-    //     } else {
-    //         output += "go to work."
-    //     }
-    // }else {
-    //     if (rainy === true) {
-    //         output += "Take umbrella."
-    //     }
-    //     if (cold === true) {
-    //         output += "Take coat."
-    //     }
-    //     if (weekend === true) {
-    //         output += "go to caffe."
-    //     } else {
-    //         output += "go to home."
-    //     }
-    // }
-    // alert(output);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let numbers = [3,6,1,9,3,6,8,4,2,5,77,989,76,33]
+// let max = numbers[0];
+// let secondMax = max;
+//
+// for (let i = 0; i<numbers.length; i++) {
+//     if (max < numbers[i+1]) {
+//         secondMax = max;
+//         max = numbers[i+1];
+//     }
+//     if (max !== numbers[i] && secondMax < numbers[i]) {
+//         secondMax = numbers [i];
+//     }
+// }
+// alert(secondMax)
