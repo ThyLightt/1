@@ -1,82 +1,47 @@
-let imgNode = document.createElement("img")
+let submButton = document.getElementById("submitRegistration");
+submButton.onclick = function () {
 
-imgNode.src = "https://cdn.the-scientist.com/assets/articleNo/66864/aImg/35078/foresttb-l.jpg";
-imgNode.style.width="400px";
-
-let mainCont = document.getElementById("mainContainer");
-mainCont.appendChild(imgNode);
-
-let article = document.createElement("p");
-let articleText = document.createTextNode("loren    qweqweqweqwe")
-article.appendChild(articleText);
-mainCont.appendChild(article);
-
-let myButton = document.createElement("button");
-myButton.innerHTML = "Hide! ";
-myButton.style.padding = "20px";
-myButton.style.border = "0";
-
-mainCont.appendChild(myButton);
-
-myButton.onclick = function(){
-    article.style.display = "none";
+    let emailAdd = document.getElementById("email");
+    validateEmail(emailAdd);
+    let usernameAdd = document.getElementById("username");
+    validateUsername(usernameAdd);
+    let passwordAdd = document.getElementById("password");
+    validatePassword(passwordAdd);
+    let passwordConfAdd = document.getElementById("passwordConf");
+    validatePasswordConf(passwordConfAdd);
 };
 
-let myButton2 = document.createElement("button");
-myButton2.innerHTML = "Show! ";
-myButton2.style.padding = "20px";
-myButton2.style.border = "0";
-
-mainCont.appendChild(myButton2);
-
-myButton2.onclick = function(){
-    article.style.display = "flex";
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let numbers = [3,6,1,9,3,6,8,4,2,5,77,989,76,33]
-// let max = numbers[0];
-// let secondMax = max;
-//
-// for (let i = 0; i<numbers.length; i++) {
-//     if (max < numbers[i+1]) {
-//         secondMax = max;
-//         max = numbers[i+1];
-//     }
-//     if (max !== numbers[i] && secondMax < numbers[i]) {
-//         secondMax = numbers [i];
-//     }
-// }
-// alert(secondMax)
+function validateEmail (email) {
+   let emailPattern =  /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+   let result = emailPattern.test(email.value);
+   if(result === true) {
+       email.style.border = "2px solid green"
+   }else {
+       email.style.border = "2px solid red"
+   }
+}
+function validateUsername(username) {
+    let usernamePattern = /^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$/;
+    let result = usernamePattern.test(username.value);
+    if(result === true) {
+        username.style.border = "2px solid green"
+    }else {
+        username.style.border = "2px solid red"
+    }
+}
+function validatePassword (password) {
+    let passwordPattern = /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}/;
+    let result = passwordPattern.test(password.value);
+    if (result === true) {
+        password.style.border = "2px solid green"
+    } else {
+        password.style.border = "2px solid red"
+    }
+}
+function validatePasswordConf(passwordConf) {
+    if ( passwordConf.value === password.value) {
+        passwordConf.style.border = "2px solid green"
+    } else {
+        passwordConf.style.border = "2px solid red";
+    }
+}

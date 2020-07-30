@@ -21,9 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f3ba28-3518-47e2-8304-b51ba5222000" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sass-cache/e32a59f8ce1b1526822f27776414237561f903c9/style.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/e32a59f8ce1b1526822f27776414237561f903c9/style.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,12 +67,12 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Prog 1\lab2\homework" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Prog 1\lab2" />
       <recent name="D:\Prog 1\lab2\123" />
+      <recent name="D:\Prog 1\lab2\homework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Prog 1\lab2\homework" />
     </key>
   </component>
@@ -122,6 +125,10 @@
       <workItem from="1595009278925" duration="15000" />
       <workItem from="1595057269113" duration="3636000" />
       <workItem from="1595524935710" duration="3081000" />
+      <workItem from="1595661136461" duration="718000" />
+      <workItem from="1595665414186" duration="1260000" />
+      <workItem from="1595667128659" duration="3479000" />
+      <workItem from="1596119242311" duration="4409000" />
     </task>
     <servers />
   </component>
