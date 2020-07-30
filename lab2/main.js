@@ -39,7 +39,7 @@ function validatePassword (password) {
     }
 }
 function validatePasswordConf(passwordConf) {
-    if ( passwordConf.value === password.value) {
+    if ( passwordConf.value === document.getElementById("password").value) {
         passwordConf.style.border = "2px solid green"
     } else {
         passwordConf.style.border = "2px solid red";
